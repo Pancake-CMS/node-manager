@@ -1,0 +1,25 @@
+{
+  "name": "node-manager",
+  "homepage": "https://github.com/Pancake-CMS/node-manager",
+  "authors": [
+    "Prateek Jadhwani <prateekjadhwani@users.noreply.github.com>"
+  ],
+  "description": "",
+  "main": "node-manager.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^1.7.1",
+    "paper-item": "PolymerElements/paper-item#^1.2.1",
+    "paper-icon-button": "PolymerElements/paper-icon-button#^1.1.4",
+    "iron-icon": "PolymerElements/iron-icon#^1.0.12",
+    "iron-icons": "PolymerElements/iron-icons#^1.2.0",
+    "polymerfire": "firebase/polymerfire#^0.9.4"
+  }
+}
