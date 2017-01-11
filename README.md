@@ -1,6 +1,12 @@
 # node-manager
 A web component that is used to provide a tabular layout for the nodes. It also comes with a `fork` and `open` button. `fork` button will let you fork the template or the page under consideration and will save it in `pages` node. Open will let you edit the template or page depending on what it is.
 
+### Installation
+
+```shell
+bower install --save pancake-cms-node-manager
+```
+
 ### Attributes
 
 | Name | Description | Type | Sample Value |
