@@ -83,6 +83,7 @@
 
             _handleOpen: function(e, detail) {
                 this.set('route.path', '/' + this.fbnode + '/edit/' + e.model.item);
+                window.location.reload();
             },
 
             _handleFork: function(e, detail) {
