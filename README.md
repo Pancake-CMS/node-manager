@@ -13,3 +13,4 @@ bower install --save pancake-cms-node-manager
 |-------|------------|--------------|------|
 | `fbnode` | This is node to display. It can either be `template` to show the user a list of templates, or can be `pages` to show the users a list of pages. | String | `template` or `pages` |
 | `route` | The route object, used to open the template or pages in edit mode | Object | this value comes from parent, do not change it. |
+| `is-approvals-page` | A value that tells if it needs to show pages from the approvals node. | Boolean | `true` or `false` |
